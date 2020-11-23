@@ -11,9 +11,14 @@ body {
     background-color: rgb(164, 206, 209);
     padding: 10px;
 }
+
+.dropdown-menu {
+    background-color: rgb(88, 146, 150);
+}
+
 .logo {
     width: 100px;
-    height: 71px;
+    height: 72px;
     padding: 10px;
 }
 
@@ -22,8 +27,8 @@ header, img {
     margin-left: auto;
     margin-right: auto;
     
-    width: 397px;
-    height: 283px;
+    width: 390px;
+    height: 281px;
     padding: 20px;
 }
 header, h1 {
