@@ -34,8 +34,8 @@ body {
     margin-right: auto;
 }
 
-li, img {
-    width: 100px;
+li img {
+    width: 50px;
 }
 
 
