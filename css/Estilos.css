@@ -80,3 +80,28 @@ header .h1 {
     font-weight: 320;
     font-size: 35px;
 }
+
+figure .h1 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.item-title {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    color: white;
+    background-color: rgb(164, 206, 209,0.95);
+}
+
+.item-gallery {
+    position: relative;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color:rgb(238, 228, 211,0.5);
+    
+}
