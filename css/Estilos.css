@@ -103,3 +103,17 @@ figure .h1 {
 a:hover {
     text-decoration: none;
 }
+
+.table {
+    background-color: rgb(164, 206, 209,0.95);
+    color: white;
+    text-align: center;
+}
+
+table, table tr, table th, table td {
+    border: 2px solid white;
+}
+
+th:hover, td:hover {
+    background-color: rgb(88, 146, 150);
+}
