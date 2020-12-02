@@ -12,7 +12,9 @@
 
     <!-- Bootstrap CSS --> <!-- PARTE QUE HAY QUE COPIAR-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link href="css/Estilos.css" type="text/css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/Estilos.css" type="text/css" />
+    <link rel="stylesheet" href="css/lightbox.min.css" type="text/css" />
+    <script src="js/lightbox-plus-jquery.min.js" language="javascript" type="text/javascript"></script>
 </head>
 <body>
     <div class="container-fluid">
@@ -77,44 +79,181 @@
                 PRECIOS
             </h1>
         </div>
-        <table class="table table-bordered table-sm table-light">
-            <thead>
-              <tr>
-                <th scope="col">Formato dibujo</th>
-                <th scope="col">Tamaño papel</th>
-                <th scope="col">Precio</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td rowspan="3">Físico</td>
-                <td>A4</td>
-                <td>20 €</td>
-              </tr>
-              <tr>
-                <td>A3</td>
-                <td>25 €</td>
-              </tr>
-              <tr>
-                <td>Personalizado</td>
-                <td>25 €</td>
-              </tr>
-              <tr>
-                <td>Digital</td>
-                <td>-</td>
-                <td>15 €</td>
-              </tr>
-            </tbody>
-        </table>
-
-
-
+        <div class="row">
+            <div class="col">
+            <table class="table table-bordered table-sm table-light">
+                <thead>
+                  <tr>
+                    <th scope="col">Formato dibujo</th>
+                    <th scope="col">Tamaño papel</th>
+                    <th scope="col">Precio</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td rowspan="3">Físico</td>
+                    <td>A4</td>
+                    <td>20 €</td>
+                  </tr>
+                  <tr>
+                    <td>A3</td>
+                    <td>25 €</td>
+                  </tr>
+                  <tr>
+                    <td>Personalizado</td>
+                    <td>25 €</td>
+                  </tr>
+                  <tr>
+                    <td>Digital</td>
+                    <td>-</td>
+                    <td>15 €</td>
+                  </tr>
+                </tbody>
+            </table>
+            </div>
+        </div>
+        
         <!-- SECCIÓN: GALERÍA -->
         <div class="row">
             <a name="Galería"></a>
             <h1 class="col-12 h1 text-center bg-transparent text-black-100 mb-5">
                 GALERÍA
             </h1>
+        </div>
+
+        
+        <div class="row gallery justify-content-center">       
+              <figure class="col-sm-6 col-md-4  text-center">
+                <a href="img/pictures/picture_1.jpg" data-lightbox="mygallery">
+                  <img alt="picture" src="img/pictures/picture_1.jpg" class="zoom img-fluid">
+                </a>
+              </figure>
+        
+              <figure class="col-sm-6 col-md-4 text-center">
+                <a href="img/pictures/picture_2.jpg" data-lightbox="mygallery">
+                  <img alt="picture" src="img/pictures/picture_2.jpg" class="zoom img-fluid">
+                </a>
+              </figure>
+        
+              <figure class="col-sm-6 col-md-4 text-center">
+                <a href="img/pictures/picture_3.jpg" data-lightbox="mygallery">
+                  <img alt="picture" src="img/pictures/picture_3.jpg" class="img-fluid">
+                </a>
+              </figure>
+
+              <figure class="col-sm-6 col-md-4  text-center">
+                <a href="img/pictures/picture_4.jpg" data-lightbox="mygallery">
+                  <img alt="picture" src="img/pictures/picture_4.jpg" class="zoom img-fluid">
+                </a>
+              </figure>
+        
+              <figure class="col-sm-6 col-md-4 text-center">
+                <a href="img/pictures/picture_5.jpg" data-lightbox="mygallery">
+                  <img alt="picture" src="img/pictures/picture_5.jpg" class="zoom img-fluid">
+                </a>
+              </figure>
+        
+              <figure class="col-sm-6 col-md-4 text-center">
+                <a href="img/pictures/picture_6.jpg" data-lightbox="mygallery">
+                  <img alt="picture" src="img/pictures/picture_6.jpg" class="img-fluid">
+                </a>
+              </figure>
+        
+              <figure class="col-sm-6 col-md-4  text-center">
+                <a href="img/pictures/picture_7.jpg" data-lightbox="mygallery">
+                  <img alt="picture" src="img/pictures/picture_7.jpg" class="zoom img-fluid">
+                </a>
+              </figure>
+        
+              <figure class="col-sm-6 col-md-4 text-center">
+                <a href="img/pictures/picture_8.jpg" data-lightbox="mygallery">
+                  <img alt="picture" src="img/pictures/picture_8.jpg" class="zoom img-fluid">
+                </a>
+              </figure>
+        
+              <figure class="col-sm-6 col-md-4 text-center">
+                <a href="img/pictures/picture_9.jpg" data-lightbox="mygallery">
+                  <img alt="picture" src="img/pictures/picture_9.jpg" class="img-fluid">
+                </a>
+              </figure>
+
+              <figure class="col-sm-6 col-md-4  text-center">
+                <a href="img/pictures/picture_10.jpg" data-lightbox="mygallery">
+                  <img alt="picture" src="img/pictures/picture_10.jpg" class="zoom img-fluid">
+                </a>
+              </figure>
+        
+              <figure class="col-sm-6 col-md-4 text-center">
+                <a href="img/pictures/picture_11.jpg" data-lightbox="mygallery">
+                  <img alt="picture" src="img/pictures/picture_11.jpg" class="zoom img-fluid">
+                </a>
+              </figure>
+        
+              <figure class="col-sm-6 col-md-4 text-center">
+                <a href="img/pictures/picture_12.jpg" data-lightbox="mygallery">
+                  <img alt="picture" src="img/pictures/picture_12.jpg" class="img-fluid">
+                </a>
+              </figure>
+
+              <figure class="col-sm-6 col-md-4  text-center">
+                <a href="img/pictures/picture_13.jpg" data-lightbox="mygallery" data-size="800x534">
+                  <img alt="picture" src="img/pictures/picture_13.jpg" class="zoom img-fluid">
+                </a>
+              </figure>
+        
+              <figure class="col-sm-6 col-md-4 text-center">
+                <a href="img/pictures/picture_14.jpg" data-lightbox="mygallery" data-size="800x534">
+                  <img alt="picture" src="img/pictures/picture_14.jpg" class="zoom img-fluid">
+                </a>
+              </figure>
+        
+              <figure class="col-sm-6 col-md-4 text-center">
+                <a href="img/pictures/picture_15.jpg" data-lightbox="mygallery">
+                  <img alt="picture" src="img/pictures/picture_15.jpg" class="img-fluid">
+                </a>
+              </figure>
+
+              <figure class="col-sm-6 col-md-4  text-center">
+                <a href="img/pictures/picture_16.jpg" data-lightbox="mygallery" data-size="800x534">
+                  <img alt="picture" src="img/pictures/picture_16.jpg" class="zoom img-fluid">
+                </a>
+              </figure>
+        
+              <figure class="col-sm-6 col-md-4 text-center">
+                <a href="img/pictures/picture_17.jpg" data-lightbox="mygallery" data-size="800x534">
+                  <img alt="picture" src="img/pictures/picture_17.jpg" class="zoom img-fluid">
+                </a>
+              </figure>
+        
+              <figure class="col-sm-6 col-md-4 text-center">
+                <a href="img/pictures/picture_18.png" data-lightbox="mygallery">
+                  <img alt="picture" src="img/pictures/picture_18.png" class="img-fluid">
+                </a>
+              </figure>
+
+              <figure class="col-sm-6 col-md-4  text-center">
+                <a href="img/pictures/picture_19.png" data-lightbox="mygallery" data-size="800x534">
+                  <img alt="picture" src="img/pictures/picture_19.png" class="zoom img-fluid">
+                </a>
+              </figure>
+        
+              <figure class="col-sm-6 col-md-4 text-center">
+                <a href="img/pictures/picture_20.jpg" data-lightbox="mygallery" data-size="800x534">
+                  <img alt="picture" src="img/pictures/picture_20.jpg" class="zoom img-fluid">
+                </a>
+              </figure>
+        
+              <figure class="col-sm-6 col-md-4 text-center">
+                <a href="img/pictures/picture_21.jpg" data-lightbox="mygallery">
+                  <img alt="picture" src="img/pictures/picture_21.jpg" class="img-fluid">
+                </a>
+              </figure>
+
+              <figure class="col-sm-6 col-md-4 text-center">
+                <a href="img/pictures/picture_22.jpg" data-lightbox="mygallery">
+                  <img alt="picture" src="img/pictures/picture_22.jpg" class="img-fluid">
+                </a>
+              </figure>
         </div>
 
         <!-- PIE -->        
