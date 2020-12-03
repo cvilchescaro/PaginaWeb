@@ -136,6 +136,12 @@ footer .img-fluid:hover {
     color:white;
 }
 
+.form-check {
+    background-color: white;
+    border: 1px solid red;
+    width: fit-content;
+}
+
 /* .row {
     border: 1px solid red;
 }
